@@ -22,5 +22,6 @@ newImage("crate.png", "150px", "200px", 0);
 newImage("well.png", "500px", "425px", 0);
 
 newImage("sword.png", "500px", "405px", 1);
-
+newImage("shield.png", "165px", "185px", 1);
+newImage("staff.png", "600px", "100px", 1);
 
