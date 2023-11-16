@@ -29,27 +29,16 @@ newImage("staff.png", 600, 100, 1, 1);
 
 
 // bonus section
-// started but didn't finish yet
-const windowWidth = window.innerWidth;
-let windowHeight = window.innerHeight;
-
-//console.log(windowWidth);
 
 for(let j = window.innerHeight; j > window.innerHeight - 500; j -= 100) {
-    for (let i = 1; i <= windowWidth; i += 100) {
-        //windowHeight = window.innerHeight - 100;
-        // console.log('height: ' + windowHeight);
-        //console.log('i: ' + i);
+    for (let i = 1; i <= window.innerWidth; i += 100) {
         newImage("sky.png", i, j, 0, -10);
     }
 }
 
 
 for(let j = 1; j < window.innerHeight - 400; j += 100) {
-    for (let i = 1; i <= windowWidth; i += 100) {
-        //windowHeight = window.innerHeight - 100;
-        // console.log('height: ' + windowHeight);
-        //console.log('i: ' + i);
+    for (let i = 1; i <= window.innerWidth; i += 100) {
         newImage("grass.png", i, j, 0, -10);
     }
 }
