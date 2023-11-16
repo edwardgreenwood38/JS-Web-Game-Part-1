@@ -26,6 +26,9 @@ newImage("shield.png", 165, 185, 1);
 newImage("staff.png", 600, 100, 1);
 
 
+
+// bonus section
+// started but didn't finish yet
 const windowWidth = window.innerWidth;
 let windowHeight = window.innerHeight;
 
